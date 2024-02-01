@@ -12,7 +12,7 @@ import {
 export const SelectWithHint = () => {
   return (
     <Select>
-      <Label style={{ display: 'block' }}>
+      <Label elementType='label' style={{ display: 'block' }}>
         Favorite Animal
         <DialogTrigger>
           <Button>(?)</Button>
