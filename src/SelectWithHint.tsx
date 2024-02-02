@@ -14,13 +14,15 @@ export const SelectWithHint = () => {
     <Select>
       <Label elementType='label' style={{ display: 'block' }}>
         Favorite Animal
-        <DialogTrigger>
-          <Button>(?)</Button>
-          <Popover>
-            It's hint for Select
-          </Popover>
-        </DialogTrigger>
       </Label>
+
+      <DialogTrigger>
+        <Button>(?)</Button>
+        <Popover>
+          It's hint for Select
+        </Popover>
+      </DialogTrigger>
+      <br></br>
 
       {/* <DialogTrigger> */}
         <Button>
